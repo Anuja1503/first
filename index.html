@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--meta data (data of data) add to head section-->
+    <!--Meta tag describes the website when we search...is very imp for browser -->
+    <title>Index page</title>
+    <meta name="description" content="This is index page..">
+    <meta name="keyword" content="HTML, Full stack, javascript, CSS">
+    <!-- viewport - content appering in website -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<!--3 types of tag - self closing tags, normal, formatting
+-->
+
+<!-- aspect ratio - dimension of image -->
+<!-- when we use height attribute then width automatically set with respect to image -->
+
+<!--Semantic tag - that that semantic meaning (these are reserved keyword)-->
+<!--span tag  - appers content next to it-->
+<nav>
+<h1><i>hi</i></h1>
+<u>hii</u><span>Anuja</span>
+
+<br>
+</nav>
+
+<b>jiii</b>
+<strong>jiii</strong>   <!--semantic tag-->
+
+<div id="footer">
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Learn</a>
+</div>
+
+<!--Div is used for contanarization (many sections)-->
+<div id="navbar">
+    <h3>HELLO</h3>
+    <p>Find out which posts are a hit with Blogger’s built-in analytics. You’ll see where your audience is coming from and what they’re interested in. You can even connect your blog directly to Google Analytics for a more detailed look.
+
+    </p>
+
+</div>
+<span>i am span</span>
+<hr>
+<img height="500px" src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/huracan/huracan_evo/H-EVO_3.png" 
+alt="car">
+<img height="300px" src="F:\short photo.jpg" alt="My image">
+<!-- relative folder -->
+<!-- ./  = PATH_TO_THE_SERVER  (RELATIVE URL)-->
+<!-- http = (absolute url) -->
+<!-- starting with http means it is a absolute path ...and when we don't mention http it will search that path on our server and it cant found that image thats why image will not display     -->
+<img src="./assets/image.jpg" alt="image"/> 
+
+
+<!-- Link -->
+<!-- target="__blank" or target="_new"  = redirects to thenext page -->
+<br>
+<a target="_blank" href="https://youtube.com">Click Me</a>
+
+<br>
+<a target="_new" href="https://youtube.com">Click Me</a>
+
+<!-- iframe - create a window to some other website in our page -->
+<br>
+<iframe width="600px" height="500px" src="https://blog.hubspot.com"></iframe>  
+
+<!-- This is a iframe tag which hindered the another website into our webpage -->
+
+<!-- video  -->
+<video control src="./assets/video1.mp4" width="400px"></video>
+
+<video controls width="400px">
+    <source src="assets/video1.mp4"/>
+    video format not supported
+</video>
+
+<!-- autoplay  -->
+<video autoplay controls width="400px">
+    <source src="assets/video1.mp4"/>
+    video format not supported
+</video>
+
+<!--audio-->
+<br>
+<audio controls width="400px">
+    <source src="assets/02_-_I_Know_You_Want_Me_(Tribal_Mix)-(wapking.fm).mp3">
+    video format not supported
+</audio>
+
+<!-- Tables  -->
+<table>
+    <tr>
+        <td><b>Name</b></td>
+        <th>Surname</th>
+    </tr>
+    <tr>
+        <td>Anuja</td>
+        <td>Bachhav</td>
+    </tr>
+    <tr>
+        <td>Vivaan</td>
+        <td>Kadu</td>
+    </tr>
+</table>
+
+
+</body>
+</html>
