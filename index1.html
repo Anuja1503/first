@@ -5,9 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* id selector*/
+        #first {
+            color: #00ff00 !important;
+            font-size: 50px;
+            font-weight: 100;
+        }
+        /* <!--Element selector--> */
+        h1{
+            color: red  ;    /* !important - fixes end style */
+            font-size: 50px;
+        }
+        p{
+            color: blue;
+            font-weight: 100;
+        }
+        
+    </style>
 </head>
+
 <body>
-    <h1 style="color:blueviolet; font-size: 50px;">Heading one</h1>
+    <h1>Priority order</h1>
+    <h3>Inline CSS > ID Selector > Element Selector</h3>
+
+    <h1 style="color:blueviolet">Heading one</h1>
     <p style="font-size: 30px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;">
         A paragraph is a series of sentences that are organized and coherent, and are all 
         related to a single topic. Paragraphs 
@@ -16,5 +38,16 @@
         series of brief examples or a single long 
         illustration of a general point.
     </p>
+
+    <h1 id="first">First Paragraph</h1>
+    <p style="font-size: 30px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;">
+        A paragraph is a series of sentences that are organized and coherent, and are all 
+        related to a single topic. Paragraphs 
+        can contain many different kinds of 
+        information. A paragraph could contain a 
+        series of brief examples or a single long 
+        illustration of a general point.
+    </p>
+    
 </body>
 </html>
