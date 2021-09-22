@@ -35,13 +35,31 @@
             color: blue;
             font-weight: 100;
         }
-        
+        img {
+            width: 500px;
+            border-width: 20px;
+            /*border-style: solid;
+            border-style: dotted;
+            border-style: groove;
+            border-style: double;*/
+            border-style: dashed;
+            border-color: blue;
+            border-radius: 100px;   /*to curve the border*/
+            border: 20px dashed #00ff00;   /*shorthand*/
+            filter: brightness(3);
+            /* filter: blur(20px); */
+            border-top: 40px solid red;
+        }
+        div{
+            height: 100px;
+            background-color: aquamarine;
+        }
     </style>
 </head>
 
 <body>
     <h1>Priority order</h1>
-    <h3>Inline CSS > ID Selector > Element Selector</h3>
+    <h3>Inline CSS Style > ID Selector >Class > Element Selector</h3>
 
     <h1 style="color:blueviolet">Heading one</h1>
     <p style="font-size: 30px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;">
@@ -84,6 +102,7 @@
         chronological order, so that the most recent 
         post appears first, at the top of the web page.
     </p>
+    <!--Span is not a block element ..they dont have height n width-->
     <span class="big">
         My name is Scott Chow, and I am going to show you how to 
         start blogging today. I have been building
@@ -91,5 +110,12 @@
         I have launched several of my own blogs, and
         helped hundreds of others do the same.
     </span>
+    
+    <hr>
+    <img src="https://static.wikia.nocookie.net/vsbattles/images/3/37/Doraemon_renderImproved.png/revision/latest?cb=20190730170109" alt="doraemon"/>
+    <!-- div is a block element -->
+    <div>
+
+    </div>
 </body>
 </html>
