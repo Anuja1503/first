@@ -20,6 +20,18 @@
             font-size: 50px;
             font-weight: 900;
         }
+        .background{
+            background-color: aquamarine;
+            /* box-sizing: content-box; increase the content of the box */ 
+            box-sizing: border-box;
+            width: 250px;
+            height: 250px;
+            padding-top: 20px;
+            padding: 20px 10px 10px 30px; /* top right bottom left*/
+            padding: 50;   /*appliied for all bottom top right left*/
+            /* padding: 20px 50px;   top-bottom - 20, right-left-50 */
+            margin-top: 100px;   /* margin is a external property just shift our element*/
+        }
         /* id selector*/
         #first {
             color: #00ff00 !important;
@@ -114,8 +126,8 @@
     <hr>
     <img src="https://static.wikia.nocookie.net/vsbattles/images/3/37/Doraemon_renderImproved.png/revision/latest?cb=20190730170109" alt="doraemon"/>
     <!-- div is a block element -->
-    <div>
-
+    <div class="background">
+        <h2>Anuja Bachhav</h2>
     </div>
 </body>
 </html>
